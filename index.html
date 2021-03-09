@@ -1,0 +1,79 @@
+<!doc type html>
+<html>
+	<head>
+	<style>
+		.header {
+			background-color: aqua;
+			padding: 20px;
+			text-align: center;
+			}
+
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+  }
+  
+.footer{
+			background-color: red;
+			padding: 20px;
+			text-align: center;
+			}
+	</style>
+	</head>
+	<body>
+		
+		<div class="header">
+		<h1>SANJAY GHODAWAT UNIVERSITY</h1>
+		</div>
+		<div class="row">
+  <div class="column">
+  <h2>ANIMAL</h2>
+  <h4>JAGUAR</h4>
+  <p> The jaguar (Panthera onca) is a large felid species and </p>
+  <p/>the only living member of the genus Panthera native to the Americas. </p>
+  <p>The jaguar is the largest cat species in the New World and</p>  
+  <p>the third largest in the world.</p>
+  <img src = "jag.jpeg" width="300" height="300">
+  </div>
+  <div class="column">
+    <h2>SPORTS</h2>
+	<h4>CRICKET</h4>
+	<p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end,</p>
+	<p>each comprising two bails balanced on three stumps.</p> 
+	<p>The batting side scores runs by striking the ball bowled at the wicket with the bat (and running between the wickets),</p>
+	<p>while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are "out"). </p>
+	<img src="cricket.jpeg" width="300" height="300">
+	</div>
+	
+	</div>
+	
+	<div class="footer">
+	<h1>THANK YOU:)</h1>
+	</div>
+	
+	</body>
+</html>
